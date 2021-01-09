@@ -1,0 +1,124 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    clear: both;
+}
+
+.hero {
+    position: relative;
+
+    background: -webkit-linear-gradient(top, rgba(66, 27, 58, 1) 0%, rgba(66, 27, 58, 0.25) 100%), url(../img/01_header_image.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.inner-content {
+    width: calc(100% - 240px);
+    padding: 120px;
+}
+
+.inner-content h2 {
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.inner-content p {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.inner-content button {
+    width: 100px;
+    height: 36px;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 18px;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    line-height: 32px;
+    padding: 0 20px;
+    text-transform: uppercase;
+}
+
+
+.body-container {
+    padding: 60px 120px;
+}
+
+.text {
+    text-align: right;
+    display: inline-block;
+    vertical-align: top;
+    width: 66%;
+}
+
+.image {
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+}
+
+.image img{
+    width: 100%;
+    max-width: 300px;
+    padding-left: 30px;
+}
+
+.text h3 {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #222222;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+
+.text p {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+.text a {
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 60px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #222222;
+    display: inline-block;
+}
+
+.text a span {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.text a span.arrow {
+    width: 32px;
+    height: 32px;
+    border: 1px solid #222222;
+    border-radius: 50%;
+    margin-right: 0;
+    text-align: center;
+    line-height: 32px;
+}
+

@@ -1,0 +1,63 @@
+c {
+color: red;
+}
+H3{
+    font-size: 39px;
+    margin: 30px;
+}
+i {
+ position: absolute;
+ margin: -32px 30px;
+ 
+}
+
+fieldset{
+    border: 1px solid black;
+    margin: 30px;
+}
+form {
+    width: 100%;
+    padding: 20px
+}
+.line{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+input[type="Name"], input[type="Phone"],
+input[type="Email"], input[type="age"], select
+{   margin-left: 250px;
+    width: 600px;
+    height: 30px;
+    font-size: 20px;
+    align-content: center; 
+    }
+
+#userOwl{
+    height: 90px;
+    width: 600px;
+}
+.line1{
+
+    display: block;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    font-size: 20px;
+    line-height: 80px;
+    word-spacing: 200px;
+}
+.top{
+    border: 1px solid black;
+    font-size: 17px;
+    text-align: center;
+    width: 213px;
+    height: 34px;
+    margin-left: 50px;
+    margin-top: -31px;
+    line-height: 34px;
+    background-color: lightgrey;
+}
+.top:hover{
+    background-color: lightslategray;
+}
